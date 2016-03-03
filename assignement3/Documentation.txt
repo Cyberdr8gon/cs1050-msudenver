@@ -1,0 +1,18 @@
+TO COMPILE: Javac Program.java
+TO RUN: java program
+
+Author: Sam Bateman
+
+Input: Integers corrisponding to menu choice, then corresponding to descriptive values of 
+    the shape chosen
+Output: Area of Selected shape with inputed parameters
+
+
+psudeocode
+1. display menu
+2. parse menu selection and run corrisponding function
+    if menu selection is sentinal value, break out of block and end program
+3. get paramaters from user
+4. print area
+5. return to step 1
+

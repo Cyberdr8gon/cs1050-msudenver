@@ -26,9 +26,35 @@ class GetInput
 
 class Output
 {
+    public char getLetterGrade(float score)
+    {
+        char letterGrade;
+        if(90 <= (int)score)
+        {
+            letterGrade = 'A';
+        }
+        else if(80 <= (int)score)
+        {
+            letterGrade = 'B';
+        }
+        else if(70 <= (int)score)
+        {
+            letterGrade = 'C';
+        }
+        else if(60 <= (int)score)
+        {
+            letterGrade = 'D';
+        }
+        else
+        {
+            letterGrade = 'F';
+        }
+        return letterGrade;
+    }
+
     public void standardOut(String first, String last, Float average)
     {
-        System.out.printf("Name\t\tAverage Score:\n%c. %s \t\t%.2f\n", first.charAt(0), last, average);
+        System.out.printf("Name\t\tAverage Score:\t\t Letter Grade:\n%c. %s \t\t%.2f\t\t%c\n", first.charAt(0), last, average, getLetterGrade(average));
     }
 
     public int menu()
