@@ -1,0 +1,12 @@
+Documentation
+
+Palindrome Checker
+
+Input: 
+    Menu Inputs
+    Sentence to be checked
+Output:
+    Palindrome or no palindrome
+
+
+Psuedo
