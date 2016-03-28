@@ -1,0 +1,15 @@
+Input: Selections of options on selected laptop or desktop via numerical input with checking
+
+Output: Grand total with list of shopping cart and a invoice file containing the order
+
+psuedocode:
+
+print opening menu that offers to leave or buy a laptop or desktop
+parse user choice into logic switch
+logic switch points to either begining a desktop or laptop sale or leaving the store
+if still in store
+    allow person to choose CPU
+    allow person to choose RAM
+    allow person to choose GPU
+    allow person to choose SSD
+    print final shopping cart and create invoice file

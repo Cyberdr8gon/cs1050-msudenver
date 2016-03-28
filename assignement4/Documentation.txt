@@ -9,4 +9,12 @@ Output:
     Palindrome or no palindrome
 
 
-Psuedo
+Psuedocode
+print main menu
+take input number, if sentinal value end program here
+give user input to logic switch
+get palindrome string to be tested
+clean sentence of uppercase, trailing spaces and remove spaces
+iterate through palindrome and test last letter == first, second to last == second, etc.
+print if palindrome or not
+return to main menu

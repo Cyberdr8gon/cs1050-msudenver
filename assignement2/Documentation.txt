@@ -1,0 +1,13 @@
+Input: Student name, first and last and test scores
+Output: name of student, average score and letter grade
+
+psuedocode:
+show main menu
+take user input for menu choice
+if sentinal value end, if not continue
+take names
+take number of scorese for students
+take scores
+average scores
+print name of student, average score and letter grade
+return to begining
