@@ -1,0 +1,20 @@
+Shapes V2
+
+Author: Samuel Bateman
+
+Input:
+User Shape selection or exit
+side sizes
+
+Output:
+shape selection menu
+area of selected shape
+
+psuedocode:
+create new Shapes object with menu input as only variable
+dependent on menu input, switch to appropriate constructor for shape
+if shape selection is sentinal value end here
+take size of sides dependent on constuctor being given variables
+enter constructor and go to correct area calculator for given shape
+output area
+return to first line
