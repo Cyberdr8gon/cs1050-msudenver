@@ -1,0 +1,15 @@
+Author: Sam Bateman
+
+Required Input:
+ - Number of contacts
+ - name for each number
+ - number for each number
+
+Output: 
+ - List of contacts
+
+Psuedocode:
+check if speedDial array exists
+if no, set speed dial size and fill array
+display speed dial
+check if user wants to continue, if no, exit, if yes, return to first line

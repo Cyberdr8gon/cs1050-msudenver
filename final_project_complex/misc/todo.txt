@@ -1,0 +1,23 @@
+TODO
+utility functions
+
+ - money inventory AKA current till file
+
+-use "header" text document to set how many and which text objects to load
+
+-use text document to hold each type of soda in folder
+product#  Name  number_in_stock  active?
+
+-mkdir data IF it doesn't exist
+-load functions
+-write functions
+
+admin functions
+-allow admin to append new types of soda, change inventory amounts and set active status of product
+
+- provide reset function in admin console to delete all files and shutdown machine for hard reset
+
+
+user functions
+ - list active inventory, price and amounts left
+ - allow soda to be chosen and decremant amount
