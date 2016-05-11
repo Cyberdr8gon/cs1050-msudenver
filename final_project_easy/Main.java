@@ -117,15 +117,18 @@ class ContactsList
     {
         int sentinalValue = 1;
         String temp = "";
-        StringBuilder appender = new StringBuilder(32);
+        StringBuilder appender = new StringBuilder(64);
         while(sentinalValue != 0)
         {
             // 1 for chomp
             appender.append(stdIO.getString(1, "Enter Last Name of person"));
             appender.append(" " + stdIO.getString(1, "Enter First Name of person") + " ");
             appender.append(stdIO.getLong("Enter Number:"));
+            appender.append("\t");
+            appender.append("Speed Dial Number: ");
+            appender.append(dynamicContacts.size() + 1);
             dynamicContacts.add(appender.toString());
-            appender.delete(0,32);
+            appender.delete(0,64);
             sentinalValue = stdIO.getInt("Do you want to add another?\nIf so, enter 1, if not, enter 0");
         }
     }

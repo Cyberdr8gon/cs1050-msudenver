@@ -1,0 +1,17 @@
+DOCUMENTATION
+
+Title: Sort Final and Cell Phone Assignment
+
+Author: Sam Bateman
+
+input: Names and numbers
+output: various sorted lists, speed of sorting, speed dial number
+
+Psuedocode:
+
+prompt user to initialize contacts
+allow user to input contacts, after entering one, allow them to exit with 0
+prompt menu
+if user chooses to add more contacts, go to line 13
+if user chooses to sort, prompt sort options, then sort based one choice
+if user chooses to list contacts, list them in speed dial order
